@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Markup Exercises</title>
+  </head>
+  <body>
+    <main class="main">
+      <form class="form">
+        <h2 class="form-header">Registration</h2>
+        <div class="form-section first-name">
+          <label class="form-label" for="first-name">First Name</label>
+          <input
+            class="form-input"
+            type="text"
+            name="first-name"
+            id="first-name"
+            placeholder="Your name"
+            minlength="2"
+            maxlength="15"
+            required
+          />
+        </div>
+        <div class="form-section last-name">
+          <label class="form-label" for="last-name">Last Name</label>
+          <input
+            class="form-input"
+            type="text"
+            name="last-name"
+            id="last-name"
+            placeholder="Your last name"
+            minlength="2"
+            maxlength="20"
+            required
+          />
+        </div>
+        <div class="form-section birth-date-radios">
+          <div class="birth-date">
+            <label class="form-label" for="birth-date">Date of birth</label>
+            <input class="form-input" type="date" name="birth-date" id="birth-date" required />
+          </div>
+          <div class="radios">
+            <div class="radio">
+              <input class="form-input" type="radio" id="male" name="sex" value="male" />
+              <label class="form-label" for="male">Male</label>
+            </div>
+            <div class="radio">
+              <input class="form-input" type="radio" id="female" name="sex" value="female" />
+              <label class="form-label" for="female">Female</label>
+            </div>
+          </div>
+        </div>
+        <div class="form-section city-state">
+          <div class="city">
+            <label class="form-label" for="city">City</label>
+            <input class="form-input" type="text" name="city" id="city" placeholder="Your city" required />
+          </div>
+          <div class="state">
+            <label class="form-label" for="state">State</label>
+            <input class="form-input" type="text" name="state" placeholder="Your state" id="state" />
+          </div>
+        </div>
+        <div class="form-section email">
+          <label class="form-label" for="email">Email</label>
+          <input class="form-input" type="email" name="email" id="email" placeholder="mail@gmail.com" required />
+        </div>
+        <div class="form-section phone">
+          <label class="form-label" for="tel">Phone number</label>
+          <input class="form-input" type="tel" name="tel" id="tel" placeholder="Your phone" />
+        </div>
+        <div class="form-section password">
+          <label class="form-label" for="password">Password</label>
+          <input
+            class="form-input"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Your password"
+            pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,32}$"
+            required
+          />
+        </div>
+        <div class="form-section confirm-password">
+          <label class="form-label" for="confirm-password">Confirm Password</label>
+          <input
+            class="form-input"
+            type="password"
+            name="confirm-password"
+            id="confirm-password"
+            placeholder="Repeat password"
+            pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,32}$"
+            required
+          />
+        </div>
+        <div class="form-section education">
+          <label class="form-label" for="education">Education</label>
+          <textarea
+            class="form-textarea"
+            name="education"
+            id="education"
+            placeholder="Type your text"
+            rows="5"
+          ></textarea>
+        </div>
+        <div class="form-section agreement">
+          <input
+            class="form-input"
+            type="checkbox"
+            name="agreement"
+            id="agreement"
+            value="agreed to terms and policy"
+            required
+          />
+          <label class="form-label" for="agreement">
+            I agree to
+            <a class="agreement-link" href="#">Terms of Service</a>
+            &amp;
+            <a class="agreement-link" href="#">Privacy Policy</a>
+          </label>
+        </div>
+        <div class="form-section buttons">
+          <button class="button reset" type="reset">Reset</button>
+          <button class="button submit" type="submit">Submit</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

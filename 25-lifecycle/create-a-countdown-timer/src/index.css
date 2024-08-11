@@ -1,0 +1,40 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: beige;
+}
+
+.countdown-container {
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.countdown-title {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.countdown-text {
+  font-size: 18px;
+}
+
+.countdown-time {
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  margin-right: 15px;
+}

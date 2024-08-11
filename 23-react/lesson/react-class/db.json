@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "tractor",
+      "price": 500,
+      "quantity": 1000,
+      "description": "Very nice tractor"
+    }
+  ]
+  // ,
+  // "comments": [
+  //   {
+  //     "productId": 1,
+  //     "text": "nice tractor",
+  //     "id": 1
+  //   }
+  // ]
+}

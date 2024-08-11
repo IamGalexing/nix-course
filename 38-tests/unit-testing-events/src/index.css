@@ -1,0 +1,35 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+.App{
+  text-align: center;
+  font-size: 1.5em;
+}
+.box {
+  font-size: 2em;
+color: red;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+.respect-text {
+  animation-name: respect-text;
+  animation-timing-function: ease;
+}
+@keyframes respect-text{
+  0%   { transform: translateY(0); }
+  100%  { transform: translateY(-100px); }
+
+}

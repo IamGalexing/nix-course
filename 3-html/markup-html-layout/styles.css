@@ -1,0 +1,135 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+.header {
+  height: 50px;
+  padding: 20px 40px;
+  background-color: #383838;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-img {
+  display: block;
+}
+
+.nav-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-menu,
+.header-actions {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+.nav-item:not(:first-child) {
+  padding-left: 25px;
+  position: relative;
+}
+
+.header-action:not(:first-child) {
+  margin-left: 10px;
+}
+
+.main {
+  height: calc(100% - 150px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.footer {
+  height: 50px;
+  padding: 5px;
+  background-color: #383838;
+}
+
+.nav-sub-menu {
+  display: none;
+  position: absolute;
+  max-width: max-content;
+  padding: 10px;
+  margin: 0;
+  box-shadow: 2px 3px 12px -2px rgba(0, 0, 0, 0.75);
+  border-radius: 6px 6px 6px 6px;
+}
+
+.nav-sub-menu .nav-sub-item * {
+  padding-bottom: 5px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #000000;
+}
+
+.nav-sub-menu .nav-sub-item:hover * {
+  text-decoration: underline;
+  color: #383838;
+}
+
+.nav-item:hover .nav-sub-menu {
+  display: block;
+  list-style: none;
+  background: #fff;
+}
+
+.header-actions {
+  position: relative;
+}
+
+.search {
+  position: absolute;
+  top: 48%;
+  right: 67px;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.search-img {
+  position: relative;
+  left: 27px;
+  pointer-events: none;
+}
+
+.search-input {
+  cursor: pointer;
+  height: 30px;
+  padding: 0 0 0 30px;
+  width: 0px;
+  border: none;
+  background-color: transparent;
+  transition: all 0.4s ease;
+}
+
+.search-input:focus {
+  background-color: #ffffff;
+  border: 2px solid #c3c0ab;
+  cursor: text;
+  outline: 0;
+  width: 250px;
+  color: #000000;
+}
+
+.search-img:has(+ .search-input:focus) {
+  display: none;
+}

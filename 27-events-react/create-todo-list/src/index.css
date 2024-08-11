@@ -1,0 +1,123 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #dad7d7; */
+}
+
+.todo-app {
+  max-width: 500px;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-task {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-task-input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.form-task-btn {
+  width: 100px;
+  padding: 10px;
+  color: #fff;
+  background-color: #2f7cf6;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.form-task-btn:hover,
+.form-task-btn:focus {
+  outline: none;
+  background-color: #1664e2;
+}
+
+.tasks-list-title {
+  font-weight: 400;
+  margin: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.tasks-list {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 500px;
+}
+
+.tasks-list-count {
+  position: absolute;
+  right: 0;
+  top: -20px;
+  font-size: 14px;
+  color: rgb(0, 0, 0, 0.5);
+}
+
+.task-item {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #cbcbcb;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  overflow-wrap: break-word;
+}
+
+.task-item:not(:first) {
+  border-top: none;
+}
+
+.task-item-text {
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.task-item-btn {
+  color: #dad7d7;
+  padding: 7px;
+  background-color: #ca454b;
+  border: none;
+  border-radius: 5px;
+}
+
+.task-item-btn:hover,
+.task-item-btn:focus {
+  outline: none;
+  background-color: #c83139;
+}

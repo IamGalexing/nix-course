@@ -1,0 +1,64 @@
+h1 {
+  color: darkblue;
+}
+
+.changing-width {
+  background-color: red;
+}
+
+@media (min-width: 600px) {
+  .changing-width {
+    background-color: blue;
+  }
+}
+
+@media (min-width: 800px) {
+  .changing-width {
+    background-color: green;
+  }
+}
+
+@media print {
+  .changing-width {
+    background-color: none;
+  }
+}
+
+.responsive-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 600px) {
+  .responsive-layout {
+    flex-direction: row;
+  }
+}
+
+.card-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  flex-grow: 1;
+  border: 1px solid black;
+  container-type: inline-size;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+@container (min-width: 150px) {
+  .content {
+    flex-direction: row;
+    color: red;
+  }
+}
+
+.style-fonts {
+  font-style: italic;
+  font-variant: small-caps;
+}

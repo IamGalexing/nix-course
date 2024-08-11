@@ -1,0 +1,11 @@
+* {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.square {
+  width: 75px;
+  height: 75px;
+  margin: 25px;
+  border: 2px solid #333;
+}

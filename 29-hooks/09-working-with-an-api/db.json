@@ -1,0 +1,164 @@
+{
+  "users": [
+    {
+      "id": "01",
+      "name": "Nelson Muntz",
+      "username": "Nelson.Muntz",
+      "email": "Nelson@april.biz",
+      "phone": "1-770-736-8031 x56442",
+      "website": "NelsonM.org"
+    },
+    {
+      "id": "02",
+      "name": "Waylon Smithersl",
+      "username": "Waylon.Smithersl",
+      "email": "Waylon@melissa.tv",
+      "phone": "010-692-6593 x09125",
+      "website": "WaylonS.net"
+    },
+    {
+      "id": "03",
+      "name": "Ralph Wiggum",
+      "username": "Ralph.Wiggum",
+      "email": "Ralph@yesenia.net",
+      "phone": "1-463-123-4447",
+      "website": "RalphW.info"
+    },
+    {
+      "id": "04",
+      "name": "Principal Skinner",
+      "username": "Principal.Skinner",
+      "email": "Principal.OConner@kory.org",
+      "phone": "493-170-9623 x156",
+      "website": "PrincipalS.biz"
+    },
+    {
+      "id": "05",
+      "name": "Martin Prince",
+      "username": "Martin.Prince",
+      "email": "Martin@annie.ca",
+      "phone": "(254)954-1289",
+      "website": "MartinP.info"
+    },
+    {
+      "id": "06",
+      "name": "Lenny Leonard",
+      "username": "Lenny.Leonard",
+      "email": "Lenny@jasper.info",
+      "phone": "1-477-935-8478 x6430",
+      "website": "LennyL.org"
+    },
+    {
+      "id": "07",
+      "name": "Groundskeeper Willie",
+      "username": "Groundskeeper.Willie",
+      "email": "Groundskeeper@billy.biz",
+      "phone": "210.067.6132",
+      "website": "GroundskeeperW.io"
+    },
+    {
+      "id": "08",
+      "name": "Carl Carlson",
+      "username": "Carl.Carlson",
+      "email": "CarlC@rosamond.me",
+      "phone": "586.493.6943 x140",
+      "website": "CarlC.com"
+    },
+    {
+      "id": "09",
+      "name": "Kent Brockman",
+      "username": "Kent.Brockman",
+      "email": "Kent@dana.io",
+      "phone": "(775)976-6794 x41206",
+      "website": "KentB.com"
+    },
+    {
+      "id": "10",
+      "name": "Mayor Quimby",
+      "username": "Mayor.Quimby",
+      "email": "Mayor@karina.biz",
+      "phone": "024-648-3804",
+      "website": "MayorQ.net"
+    },
+    {
+      "id": "11",
+      "name": "Fat Tony",
+      "username": "Fat.Tony",
+      "email": "Fat@karina.biz",
+      "phone": "024-648-3804",
+      "website": "FatT.net"
+    },
+    {
+      "id": "12",
+      "name": "Homer Simpson",
+      "username": "Homer.Simpson",
+      "email": "Homer@karina.biz",
+      "phone": "024-342-33304",
+      "website": "SimpsonH.net"
+    },
+    {
+      "id": "13",
+      "name": "Marge Simpson",
+      "username": "Marge.Simpson",
+      "email": "Marge@karina.biz",
+      "phone": "032-123-3254",
+      "website": "MargeH.net"
+    },
+    {
+      "id": "14",
+      "name": "Charles Burns",
+      "username": "Charles.Burns",
+      "email": "Charles@karina.biz",
+      "phone": "024-342-33304",
+      "website": "CharlesB.net"
+    },
+    {
+      "id": "15",
+      "name": "Charles Burns",
+      "username": "Charles.Burns",
+      "email": "Charles@karina.biz",
+      "phone": "024-342-33304",
+      "website": "CharlesB.net"
+    },
+    {
+      "id": "16",
+      "name": "Ned Flanders",
+      "username": "Ned.Flanders",
+      "email": "Ned@karina.biz",
+      "phone": "024-342-33304",
+      "website": "NedF.net"
+    },
+    {
+      "id": "17",
+      "name": "Milhouse Van Houten",
+      "username": "Milhouse.Houten",
+      "email": "Milhouse@karina.biz",
+      "phone": "024-342-33304",
+      "website": "MilhouseVH.net"
+    },
+    {
+      "id": "18",
+      "name": "Barney Gumble",
+      "username": "Barney.Gumble",
+      "email": "Barney@karina.biz",
+      "phone": "024-342-33304",
+      "website": "BarneyG.net"
+    },
+    {
+      "id": "19",
+      "name": "Krusty the Clown",
+      "username": "Krusty.Clown",
+      "email": "Krusty@karina.biz",
+      "phone": "024-342-33304",
+      "website": "KrustyC.net"
+    },
+    {
+      "id": "20",
+      "name": "Moe Szyslak",
+      "username": "Moe.Szyslak",
+      "email": "Moe@karina.biz",
+      "phone": "024-342-33304",
+      "website": "MoeS.net"
+    }
+  ]
+}

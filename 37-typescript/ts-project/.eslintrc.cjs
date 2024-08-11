@@ -1,0 +1,45 @@
+module.exports = {
+  env: { browser: true, es2020: true, node: true, jest: true },
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
+    'plugin:react-hooks/recommended',
+    'plugin:prettier/recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended-requiring-type-checking',
+  ],
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    project: './tsconfig.json',
+    tsconfigRootDir: __dirname,
+  },
+  settings: { react: { version: '18.2' } },
+  plugins: ['react-refresh','@typescript-eslint'],
+  root: true,
+  rules: {
+    'react-refresh/only-export-components': 'off',
+    "@typescript-eslint/no-unsafe-assignment": "off",
+    "@typescript-eslint/no-unsafe-member-access": "off",
+    "@typescript-eslint/no-unsafe-call": "off",
+    "@typescript-eslint/no-unsafe-return": 'off',
+    "@typescript-eslint/no-misused-promises": "off",
+    "@typescript-eslint/restrict-template-expressions": "off",
+    "@typescript-eslint/parameter-properties": "error",
+    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/typedef": [
+      "error",
+      {
+        "arrowParameter": true,
+        "arrow-call-signature": true,
+        "array-destructuring": true,
+        "variableDeclaration": true,
+        "variableDeclarationIgnoreFunction": true,
+      }
+    ],
+    'react/prop-types': 'error',
+    'react-refresh/only-export-components': 'warn',
+    'no-console': 'error',
+  },
+}

@@ -1,0 +1,122 @@
+.article {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  width: 600px;
+  padding: 30px 25px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #202020;
+  box-sizing: border-box;
+}
+
+.article-share {
+  font-size: 14px;
+  position: relative;
+  right: 10px;
+  display: flex;
+  justify-content: right;
+  text-align: center;
+  color: #b6b6b6;
+  text-decoration: none;
+}
+
+.icon {
+  padding-left: 5px;
+}
+
+.article-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.article-date-author {
+  color: #b6b6b6;
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+.article-author,
+.article-author-link {
+  text-decoration: none;
+  font-style: inherit;
+  font-size: inherit;
+  color: inherit;
+  font-size: inherit;
+}
+
+.dot {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: #b6b6b6;
+  border-radius: 50%;
+}
+
+.article-content {
+  margin: 30px 0;
+}
+
+.article-content-text {
+  line-height: 21px;
+  margin: 20px 0;
+}
+
+.article-content-img {
+  margin: 0;
+}
+
+.image {
+  display: block;
+}
+
+.recommendations {
+  padding-top: 20px;
+  position: relative;
+}
+
+.recommendations::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 15%;
+  right: 15%;
+  height: 1px;
+  background-color: #fff;
+}
+
+.recommendations-title {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.recommendations-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  padding: 0;
+  margin: 0;
+}
+
+.recommendations-item {
+  margin: 10px 0;
+  flex: 1 0 40%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.recommendations-item-link {
+  text-decoration: none;
+  color: #3fff80;
+}
+
+.recommendations-item-date {
+  color: #828282;
+  font-size: 12px;
+}

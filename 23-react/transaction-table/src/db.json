@@ -1,0 +1,74 @@
+[
+  {
+    "id": "AAPS0L",
+    "company": "Chase & Co.",
+    "share": "CAC",
+    "commision": "+$4.37",
+    "price": "$3,509.00",
+    "quantity": 12.0,
+    "amount": "$4,397.00"
+  },
+  {
+    "id": "O2KMND",
+    "company": "Amazon.com Inc.",
+    "share": "AMZN",
+    "commision": "+$5.92",
+    "price": "$2,900.00",
+    "quantity": 8.8,
+    "amount": "$3,509.00"
+  },
+  {
+    "id": "1LP2P4",
+    "company": "Procter & Gamble",
+    "share": "PG",
+    "commision": "-$5.65",
+    "price": "$7,978.00",
+    "quantity": 2.3,
+    "amount": "$2,652.00"
+  },
+  {
+    "id": "PS9FJGL",
+    "company": "Berkshire Hathaway",
+    "share": "BRK",
+    "commision": "+$4.37",
+    "price": "$3,116.00",
+    "quantity": 48.0,
+    "amount": "$6,055.00"
+  },
+  {
+    "id": "QYR135",
+    "company": "Apple Inc.",
+    "share": "AAPL",
+    "commision": "+$38.00",
+    "price": "$8,508.00",
+    "quantity": 36.0,
+    "amount": "$3,496.00"
+  },
+  {
+    "id": "99SLSM",
+    "company": "NVIDIA Corporation",
+    "share": "NVDA",
+    "commision": "+$1,427.00",
+    "price": "$4,425.00",
+    "quantity": 18.0,
+    "amount": "$2,109.00"
+  },
+  {
+    "id": "OSDJLS",
+    "company": "Johnson & Johnson",
+    "share": "JNJ",
+    "commision": "+$1,937.23",
+    "price": "$4,038.00",
+    "quantity": 32.0,
+    "amount": "$7,210.00"
+  },
+  {
+    "id": "4HJK3N",
+    "company": "JPMorgan",
+    "share": "JPM",
+    "commision": "-$3.67",
+    "price": "$3,966.00",
+    "quantity": 80.0,
+    "amount": "$6,432.00"
+  }
+]

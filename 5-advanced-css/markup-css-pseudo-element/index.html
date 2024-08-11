@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Markup Exercises</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="main">
+      <section class="section">
+        <h2 class="section-header">Buttons</h2>
+        <button class="btn" type="button">Button</button>
+      </section>
+      <section class="section">
+        <h2 class="section-header">Links</h2>
+        <a class="link" href="#">Link</a>
+      </section>
+      <section class="section">
+        <h2 class="section-header">Radio</h2>
+        <div class="section-box">
+          <div class="radio">
+            <input class="radio-btn" type="radio" id="radio-1" name="default" />
+            <label class="radio-label" for="radio-1">Radio label default</label>
+          </div>
+          <div class="radio">
+            <input class="radio-btn" type="radio" id="radio-2" name="checked" checked />
+            <label class="radio-label" for="radio-2">Radio label checked</label>
+          </div>
+          <div class="radio">
+            <input class="radio-btn" type="radio" id="radio-3" name="required" required />
+            <label class="radio-label" for="radio-3">Radio label required</label>
+          </div>
+          <div class="radio has-error">
+            <input class="radio-btn" type="radio" id="radio-4" name="invalid" required />
+            <label class="radio-label" for="radio-4">Radio label invalid</label>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <h2 class="section-header">Checkbox</h2>
+        <div class="section-box">
+          <div class="checkbox">
+            <input class="checkbox-btn" type="checkbox" id="checkbox-1" name="default" />
+            <label class="checkbox-label" for="checkbox-1"> Checkbox label default</label>
+          </div>
+          <div class="checkbox">
+            <input class="checkbox-btn" type="checkbox" id="checkbox-2" name="checked" checked />
+            <label class="checkbox-label" for="checkbox-2"> Checkbox label checked</label>
+          </div>
+          <div class="checkbox">
+            <input class="checkbox-btn" type="checkbox" id="checkbox-3" name="required" required />
+            <label class="checkbox-label" for="checkbox-3"> Checkbox label required</label>
+          </div>
+          <div class="checkbox has-error">
+            <input class="checkbox-btn" type="checkbox" id="checkbox-4" name="invalid" required />
+            <label class="checkbox-label" for="checkbox-4"> Checkbox label invalid</label>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <h2 class="section-header">Form control (inputs)</h2>
+        <div class="section-box">
+          <div class="input">
+            <label class="input-label" for="default">Control default</label>
+            <input class="input-field" type="text" name="default" id="default" placeholder="Placeholder" />
+          </div>
+          <div class="input">
+            <label class="input-label" for="filled">Control filled</label>
+            <input
+              class="input-field"
+              type="text"
+              name="filled"
+              id="filled"
+              placeholder="Placeholder"
+              value="Typed text"
+            />
+          </div>
+          <div class="input">
+            <label class="input-label" for="required">Control required</label>
+            <input class="input-field" type="text" name="required" id="required" placeholder="Placeholder" required />
+          </div>
+          <div class="input has-error">
+            <label class="input-label" for="invalid">Control invalid</label>
+            <input
+              class="input-field"
+              type="text"
+              name="invalid"
+              id="invalid"
+              placeholder="Placeholder"
+              value="Invalid text go here"
+              required
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

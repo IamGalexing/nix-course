@@ -1,0 +1,100 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+}
+
+.sidebar {
+  flex: 0 0 200px;
+  background-color: #272c33;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.sidebar-list {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-list-item {
+  margin: 30px;
+}
+
+.sidebar-link.active {
+  text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.9);
+}
+
+.sidebar-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-content {
+  width: 100%;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 10px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+}
+
+.search-input {
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 2px solid #272c33;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.tracks-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.tracks-item {
+  width: 150px;
+  border: 2px solid #000;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(39, 44, 51, 0.9);
+  color: #fff;
+}
+
+.tracks-btn {
+  margin: 16px;
+}

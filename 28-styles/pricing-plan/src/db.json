@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Basic",
+    "price": 15,
+    "description": "$12 per month if paid annually",
+    "explanation": "Everything necessary to get started.",
+    "items": ["5 products", "Up to 1,000 subscribers", "Basic analytics", "48-hours support response time"]
+  },
+  {
+    "title": "Essential",
+    "price": 30,
+    "description": "$24 per month if paid annually",
+    "explanation": "Everything in Basic, plus essential tools for growing your business.",
+    "items": [
+      "25 products",
+      "Up to 10,000 subscribers",
+      "Advanced analytics",
+      "24-hours support response time",
+      "Marketing automations"
+    ]
+  },
+  {
+    "title": "Growth",
+    "price": 60,
+    "description": "$48 per month if paid annually",
+    "explanation": "Everything in Essential, plus collaborations tools and deeper insights.",
+    "items": [
+      "unlimited products",
+      "unlimited subscribers",
+      "Advanced analytics with AI",
+      "1-hour, dedicated support response time",
+      "Marketing automations with AI",
+      "Custom reporting tools"
+    ]
+  }
+]
